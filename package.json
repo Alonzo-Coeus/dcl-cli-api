@@ -1,0 +1,39 @@
+{
+  "name": "dcl-cli-api",
+  "version": "1.0.0",
+  "description": "An API which allows you to use the `dcl` command without using the shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alonzo-Coeus/dcl-cli-api.git"
+  },
+  "keywords": [
+    "decentraland"
+  ],
+  "author": "Alonzo-Coeus",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Alonzo-Coeus/dcl-cli-api/issues"
+  },
+  "homepage": "https://github.com/Alonzo-Coeus/dcl-cli-api#readme",
+  "dependencies": {
+    "@types/node": "^12.0.4",
+    "chalk": "^2.4.2",
+    "docker-names": "^1.1.1",
+    "eth-connect": "^4.0.2",
+    "ethers": "^4.0.28",
+    "form-data": "^2.3.3",
+    "fs-extra": "^8.0.1",
+    "ignore": "^5.1.2",
+    "inquirer": "^6.3.1",
+    "interface-datastore": "^0.7.0",
+    "ipfs-unixfs-engine": "^0.35.4",
+    "isomorphic-fetch": "^2.2.1",
+    "ora": "^3.4.0",
+    "package-json": "^6.3.0",
+    "wildcards": "^1.0.2"
+  }
+}
